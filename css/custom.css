@@ -2,11 +2,27 @@
 
 html, body{
 	width: 100%; height: 100%;
-	margin: 0px; padding: 0px;
+	color: azure;
 }
 
-#mapid{
-	margin: 0px; padding: 0px;
-	width: 480px; height: 320px;
-	background-color: gray;
+body{
+	background-image: url(../images/weather.jpg);
+}
+
+img{
+	width: 70%;
+	background-color: rgba(255, 255, 255, 0.17);
+}
+#mino_weather{
+font-size: 25px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	margin: auto;
+	width: 335px;
+	height: 520px;
+
 }
